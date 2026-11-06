@@ -2,6 +2,9 @@ export function Company() {
   return (
     <section className="section section-tint" id="etaireia" aria-labelledby="etaireia-title">
       <div className="wrap">
+        <div className="section-head reveal">
+          <h2 id="etaireia-title">Η εταιρεία</h2>
+        </div>
         <article className="company-stage">
           <figure className="founder-portrait reveal">
             <img
@@ -12,9 +15,9 @@ export function Company() {
             />
           </figure>
           <div className="founder-copy reveal">
-            <h2 id="etaireia-title" className="founder-line">
+            <p className="founder-line">
               ΙΔΡΥΤΗΣ ORGANEXT <span className="founder-sep">|</span> ΘΕΟΧΑΡΗΣ ΚΑΦΕΤΣΗΣ
-            </h2>
+            </p>
             <div className="founder-bio">
               <p>
                 Ο Θεοχάρης Καφέτσης είναι ένας νέος επιχειρηματίας με έντονη φιλοδοξία,
