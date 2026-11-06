@@ -14,7 +14,6 @@ export const site = {
 export const nav = [
   { id: "archi", label: "Αρχική" },
   { id: "ypiresies", label: "Υπηρεσίες" },
-  { id: "lyseis", label: "Λύσεις" },
   { id: "etaireia", label: "Η εταιρεία" },
   { id: "epikoinonia", label: "Επικοινωνία" },
 ] as const;

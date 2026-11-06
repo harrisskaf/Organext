@@ -31,14 +31,6 @@ export const services = [
   },
 ] as const;
 
-export const qualities = [
-  "Πολυπλοκότητα",
-  "Προσαρμογή",
-  "Ολοκληρωμένα συστήματα",
-  "Διασύνδεση",
-  "Επέκταση",
-] as const;
-
 export const steps = [
   { n: "01", title: "Κατανόηση αναγκών και απαιτήσεων" },
   { n: "02", title: "Σχεδιασμός της λύσης" },
